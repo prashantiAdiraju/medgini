@@ -858,7 +858,7 @@ background:#000;
     }
 }
 .whatweoffer__image, .whatwedo__image, .whoweare__image, .whoweare__image1, 
-.whoweare__image2, .whoweare__image3,.whoweare__image4,.whoweare__image5, .whatweare__image1,.schedule__image {
+.whoweare__image2, .whoweare__image3,.whoweare__image4,.whoweare__image5, .whatweare__image1,.schedule__image, whoweare__image6,whoweare__image7 {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
