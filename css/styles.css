@@ -857,8 +857,9 @@ background:#000;
         transform: translateY(15px)
     }
 }
-.whatweoffer__image, .whatwedo__image, .whoweare__image, .whoweare__image1, 
-.whoweare__image2, .whoweare__image3,.whoweare__image4,.whoweare__image5, .whatweare__image1,.schedule__image, whoweare__image6,whoweare__image7 {
+.whatweoffer__image, .whatwedo__image, .whoweare__image, .whoweare__image1,
+.whoweare__image2, .whoweare__image3,.whoweare__image4,.whoweare__image5, .whatweare__image1,.schedule__image, 
+.whoweare__image6, .whoweare__image7 {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -890,13 +891,13 @@ background:#000;
   background-image: url('../images/Schedule a Meet.jpg');height: 500px; width:100%; z-index:9
 }
 .whoweare__image4 {   
-    background-image: url('../images/bag-and-hands.jpg');height: 350px; width:100%; z-index:10
+    background-image: url('../images/bag-and-hands.jpg');height: 500px; width:100%; z-index:10
 }
 .whoweare__image6 {   
-    background-image: url('../images/Partner Image 1.jpg');height: 575px; width:100%; z-index:9
+    background-image: url('../images/Partner Image 1.jpg');height: 575px; width:100%; z-index:11
 }
 .whoweare__image7 {   
-    background-image: url('../images/Contat Us Image.jpg');height: 575px; width:100%; z-index:9
+    background-image: url('../images/Contat Us Image.jpg');height: 575px; width:100%; z-index:12
 }
 .whoweare__contractmgmt {
    background-image: url('../images/whatweoffer-img.jpg');
@@ -1001,7 +1002,7 @@ width:100%;
     line-height: 48px;
     line-height: 5rem;
     padding:0% 0 0px 0 ;
-    color:#ffd56f;
+    color:#fff;
 }
 #whoweare-content .content-box h3, #whoweare-content .whoweare-page h3{
    color:#fff;
