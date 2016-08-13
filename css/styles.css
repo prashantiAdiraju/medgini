@@ -214,7 +214,7 @@ z-index:999 !important;
     background-position: center;
 }
 #whoweare .whoweare__image {   
-    background-image: url('../images/whatwedo-img.jpg');height: 100%;width:100%;background-repeat:no-repeat;z-index: 4;
+    background-image: url('../images/whatwedo-img1.jpg');height: 100%;width:100%;background-repeat:no-repeat;z-index: 4;
 }
 #whatweoffer .whatweoffer__image {   
     background-image: url('../images/whatweoffer-img.jpg');height: 100%;width:100%; background-repeat:no-repeat;
@@ -867,16 +867,16 @@ background:#000;
 /*z-index:3*/
 }
 .whatweoffer__image {   
-    background-image: url('../images/whatwedo-img.jpg');height: 100%;z-index:4;  
+    background-image: url('../images/whatwedo-img1.jpg');height: 100%;z-index:4;  
 }
 .whoweare__image {   
-    background-image: url('../images/whatwedo-img.jpg');height: 100%; width:100%;/*z-index:5 */
+    background-image: url('../images/whatwedo-img1.jpg');height: 100%; width:100%;/*z-index:5 */
 }
 .whoweare__image5 {   
     background-image: url('../images/What we Offer Image one.jpg');height: 100%; width:100%;/*z-index:5 */
 }
 .whatwedo__image {   
-    background-image: url('../images/whatwedo-img.jpg');height: 450px; width:100%; z-index:6
+    background-image: url('../images/whatwedo-img1.jpg');height: 450px; width:100%; z-index:6
 }
 .whoweare__image1 {   
     background-image: url('../images/Who We are find out more 1st image.jpg');height: 575px; width:100%; z-index:7;margin-left: 0px;
