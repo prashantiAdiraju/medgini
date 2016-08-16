@@ -714,6 +714,7 @@ background-image: url('../images/home1.jpg');height: 100%;
     color: #fff;
     margin-bottom: 20px;
     font-family: lato,Georgia,Serif;
+    font-size: 6rem;
 }
 
 .home-center p {
@@ -728,7 +729,19 @@ background-image: url('../images/home1.jpg');height: 100%;
     line-height: 30px;
     line-height: 1.875rem
 }
-
+.home-center div span{
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+ 
+}
+@media (max-width: 480px) {
+.home-center h1 {
+    font-size: 5.5rem;
+    text-align:center;
+  }
+}
 @media (min-width: 720px) {
     .home-center p {
         display:block
