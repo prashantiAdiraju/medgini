@@ -56,7 +56,10 @@ section{
  60% {transform: translateY(-15px);}
 }
 /* content */
-
+.row{
+  margin-left:0;
+  margin-right:0;
+}
 .content-container {
 width: 100%; 
 position: relative; 
