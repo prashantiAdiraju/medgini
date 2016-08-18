@@ -875,7 +875,7 @@ background:#000;
 }
 .whatweoffer__image, .whatwedo__image, .whoweare__image, .whoweare__image1,
 .whoweare__image2, .whoweare__image3,.whoweare__image4,.whoweare__image5, .whatweare__image1,.schedule__image, 
-.whoweare__image6, .whoweare__image7 {
+.whoweare__image6, .whoweare__image7, .partners__image1, .schedule__image1 {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -908,6 +908,12 @@ background:#000;
 }
 .whoweare__image4 {   
     background-image: url('../images/bag-and-hands.jpg');height: 500px; width:100%; z-index:10
+}
+.partners__image1 {   
+    background-image: url('../images/partners1.jpg');height: 500px; width:100%; z-index:10
+}
+.schedule__image1 {   
+    background-image: url('../images/photo-1.jpg');height: 500px; width:100%; z-index:10
 }
 .whoweare__image6 {   
     background-image: url('../images/Partner Image 1.jpg');height: 575px; width:100%; z-index:11
