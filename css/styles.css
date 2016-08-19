@@ -1281,6 +1281,26 @@ border-radious:5px
   transition: all 0.8s ease;
 
 }
+#schedule input{
+  background:transparent;
+  margin-top: 20px;
+    padding: 5px;
+    transition: all .3s ease 0s;
+    font-size: 16px;
+    font-size: 2rem; 
+    color: #c5c5c5 !important;
+    border: 1px solid #c5c5c5;
+}
+#schedule input:hover{
+background:#000;
+  }
+  #schedule button:hover{
+color:#fff !important;
+  }
+ #schedule p {
+  margin: 0;
+  padding: 0;
+ }  
 #schedule .register .form-control {
   background: rgba(0, 0, 0, 0);
   border-color: #ffffff;
@@ -1320,7 +1340,7 @@ border-radious:5px
   padding: 20px;
   text-align: center;
 }
-#schedule .btn{ background: #333;color: #fff; }
+#schedule .btn{ background: #333;color: #fff; margin-top:20px; }
 #schedule .btn:hover{background: #888; color: #000;}
 #schedule .register .ok .icon {
   font-size: 30px;
