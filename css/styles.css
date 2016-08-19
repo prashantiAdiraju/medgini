@@ -8,6 +8,10 @@ section{
     width: 100%;
     float: left;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 .container {
   padding-right: 0px;
   padding-left: 0px;
