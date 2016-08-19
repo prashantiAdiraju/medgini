@@ -1288,8 +1288,9 @@ border-radious:5px
     transition: all .3s ease 0s;
     font-size: 16px;
     font-size: 2rem; 
-    color: #c5c5c5 !important;
+    /*color: #c5c5c5 !important;*/
     border: 1px solid #c5c5c5;
+    border-radius: 6px;
 }
 #schedule input:hover{
 background:#000;
@@ -1340,7 +1341,7 @@ color:#fff !important;
   padding: 20px;
   text-align: center;
 }
-#schedule .btn{ background: #333;color: #fff; margin-top:20px; }
+#schedule .btn{ background: #333;color: #fff; margin-top:20px;border-radius: 6px;    border: solid 1px #c5c5c5 }
 #schedule .btn:hover{background: #888; color: #000;}
 #schedule .register .ok .icon {
   font-size: 30px;
