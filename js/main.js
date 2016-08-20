@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
 
   function toggleSidebar() {
     $(".button").toggleClass("active");

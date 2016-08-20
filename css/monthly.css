@@ -1,13 +1,13 @@
 /* Overall wrapper */
 #whoweare-3 input[type="text"].calander {
-    padding: 2px 15px;
+    padding: 5px;
     /* border-radius: 5px; */
     /* font-family: Cambria,Georgia,Serif; */
    /*  font-size: 18px; */
     outline: none;
     border: 1px solid #c5c5c5; 
     /* background: rgba(63, 78, 100, 0.27); */
-    color: #777;
+    color: #c5c5c5;
     box-sizing: border-box;
     width: 160px;
 }

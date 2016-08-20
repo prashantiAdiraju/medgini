@@ -123,6 +123,7 @@ height: 400px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;padding: 0px;
 
 }
+
 .content-box:before {
   left: 100%;
   border-color: transparent transparent transparent #3c3c3c;
@@ -169,7 +170,11 @@ height: 400px;
      border-color: transparent transparent transparent #3c3c3c;
 z-index:999 !important;
 }
-
+#block-y.content-box:before {
+    left: 100% !important;
+    border-color: transparent transparent transparent #ffd56f !important;
+    z-index: 999;
+}
 .content-box:before {
     content: "";
     display: block;
@@ -263,8 +268,8 @@ z-index:999 !important;
   margin: 0 auto;  
   font-size: 20px;
   line-height: 1.6em;
-  font-family: lato,Georgia,Serif;
-  
+  font-family: lato,Georgia,Serif;  
+  overflow: hidden;
   text-transform: none;
   text-align:center;
   -webkit-transition: all .7s .2s ease-in-out;
@@ -274,7 +279,9 @@ z-index:999 !important;
   transition: all .7s .2s ease-in-out;
 
   }
-
+.content-box-left-p, .content-box-left-s{
+	padding: 2% 0;
+}
 
 #whatweoffer-ps .content-box-left-p h2, #whatweoffer-ps .content-box-left-s h2,, #schedule h2  { 
   color: #000;  
@@ -314,7 +321,12 @@ z-index:999 !important;
   color: #fff !important;
 }
 @media all and (max-width: 480px) {
-  
+.container{
+	width:100% !important;
+}  
+#footer footer{
+	width:100% !important;
+}
 .content-box {
 height:100%;
 }
@@ -479,7 +491,7 @@ height:100%;
     -o-background-size: cover;
 }
 #footer footer {
-  position: absolute;
+ /* position: fixed;*/
   right: 0;
   bottom: 0;
   text-align: center;
@@ -487,7 +499,7 @@ height:100%;
   background: #ffb84d; 
   padding:20px 0;
   color: #333;
-  width:93%;  
+  /*width:93%;  */
 }
 #footer footer p {
   padding:0;
@@ -919,7 +931,7 @@ background:#000;
     background-image: url('../images/Who We are find out more 1st image.jpg');height: 575px; width:100%; z-index:7;margin-left: 0px;
 }
 .whoweare__image2 {   
-    background-image: url('../images/Who we are find out more 2nd image.jpg');height: 500px; width:100%; z-index:8
+    background-image: url('../images/Who we are find out more 2nd image.jpg');height: 520px; z-index:8
 }
 .whoweare__image3 {   
     background-image: url('../images/Who we are find out more 3rd Image.jpg');height: 500px; width:100%; z-index:9
@@ -965,7 +977,7 @@ a{color:#555;}
     border-width: 20px !important;
     position: absolute !important;
     top: 50% !important;
-    margin-top: -20px !important;
+    margin-top: -50px !important;
     width: 0 !important;
     transition: all .3s ease !important;
 }
@@ -1327,7 +1339,7 @@ color:#fff !important;
 #schedule .register .form-control {
   background: rgba(0, 0, 0, 0);
   border-color: #ffffff;
-  color: #333;
+  color: #c5c5c5;
 }
 #schedule .register .form-control::-moz-placeholder {
   color: #333;
@@ -1387,6 +1399,9 @@ color:#fff !important;
 #schedule .register .has-error .form-control,
 #schedule .register .has-error .btn-empty {
   border-color: #e74c3c !important;
+}
+.form-control {
+	color:#c5c5c5;
 }
 /* schedule ends */
 .back-to-top{
@@ -1450,7 +1465,14 @@ padding-bottom:10px;
     color: #fff;
     top: 5px;
 }
-
+@media all and (max-width: 480px) {
+	body{
+		font-size:12px;
+	}
+#return-to-top{
+	margin-right:45px;
+}
+}
 
 /* Extra Things */
 
@@ -1504,3 +1526,215 @@ padding-left:10px;
 }
 
 /********stickycontact end *********/
+/* Portrait and Landscape */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  		.container{
+  			width:100%;
+  		}
+  		.content-box-left-s, .content-box, .content-box-left-p, .content-box-right-content, .content-box-yellow{
+  			width:100%;
+  			padding:20px;
+  			height: 100%;
+  			padding: 0;
+  			margin: 0;
+  		}
+  		#footer footer{
+  			width:100%;
+  			text-align: center;	
+  		}
+  		.home-strapline, .home-center{
+  			text-align: center;	
+  			width: 100%;
+  		}
+
+}
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  		.container{
+  			width:100%;
+  			margin:0;
+  		}
+  		#myCarousel{  			
+  			
+  		}
+  		.home-strapline, .home-center{
+  			text-align: center;	
+  			width: 100%;
+  		}
+  		.content-box-left-s, .content-box, .content-box-left-p, .content-box-right-content, .content-box-yellow{
+  			width:100%;
+  			padding:20px;
+  			height: 100%;
+  			padding: 0;
+  			margin: 0;
+  		}
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	.container{
+  			width:100%;
+  			margin:0;
+  		}
+  		.home-strapline, .home-center{
+  			text-align: center;	
+  			width: 100%;
+  		}
+  		.content-box-left-s, .content-box, .content-box-left-p, .content-box-right-content, .content-box-yellow{
+  			width:100%;
+  			padding:20px;
+  			height: 100%;
+  			padding: 0;
+  			margin: 0;
+  		}
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	.container{
+  			width:100%;
+  			margin:0;
+  		}
+  		.home-strapline, .home-center{
+  			text-align: center;	
+  			width: 100%;
+  		}
+  		.content-box-left-s, .content-box, .content-box-left-p, .content-box-right-content, .content-box-yellow{
+  			width:100%;
+  			padding:20px;
+  			height: 100%;
+  			padding: 0;
+  			margin: 0;
+  		}
+
+}
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  	.container{
+  			width:100%;
+  			margin:0;
+  		}
+  		.home-strapline, .home-center{
+  			text-align: center;	
+  			width: 100%;
+  		}
+  		.content-box-left-s, .content-box, .content-box-left-p, .content-box-right-content, .content-box-yellow{
+  			width:100%;
+  			padding:20px;
+  			height: 100%;
+  			padding: 0;
+  			margin: 0;
+  		}
+
+}
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  	.container{
+  			width:100%;
+  			margin:0;
+  		}
+  		.home-strapline, .home-center{
+  			text-align: center;	
+  			width: 100%;
+  		}
+
+
+}
+/* ----------- Galaxy S5 ----------- */
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}		
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}		
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
