@@ -20,7 +20,7 @@
 	-ms-user-select: none;
 	user-select: none;
 	position: relative;
-	border: solid 1px #ffb84d;
+	border: solid 0px #ffb84d;
 }
 
 /* Contains title & nav */
