@@ -288,7 +288,7 @@ z-index:999 !important;
   padding: 4% 5% 3.6% 5%;
 }
 #whatweoffer-ps ul{
-  list-style-type:none;
+  list-style-type:none;padding:20px 20px 40px 20px;
 }
 #whoweare-content #whoweare-3 .content-box-3 {
     min-height: 350px;
