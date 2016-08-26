@@ -85,23 +85,34 @@
 <section id="whoweare-3">
 <div class="row">
   <div id="block-3" class="col-md-6 col-sm-12 content-box-left height495 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms">
-    <div class="schedule__image height495-m"></div>
+    <div class="schedule__image height495"></div>
   </div>          
-  <div id="block-5" class="col-md-6 col-sm-12 content-box content-box-3 second height495 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms">    
+  <div id="block-5" class="col-md-6 col-sm-12 content-box content-box-3 second height495 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms">
+<form ame="sentMessage" id="contactForm" novalidate>
     <h2 style="text-align:center">Schedule a Meet</h2>
-    <div class="text-content">           
-      <p><input type="email" id="regMail" name="name" data-validation="Name" class="form-control input-lg" placeholder="Name"></p>
-      <p><input type="email" id="regMail" name="email" data-validation="email" class="form-control input-lg" placeholder="Email">
-      </p>
-      <p><input type="text" id="regPhone" name="phone" data-validation="required" class="form-control input-lg" placeholder="Phone"></p>
+    <div class="">           
+      <p><input type="text" id="name" name="name" data-validation="Name" class="form-control input-lg" placeholder="Name" data-validation-required-message="Please 
+
+enter your name."></p>
+      <p><input type="email" id="email" name="email" data-validation="email" class="form-control input-lg" placeholder="Email" required data-validation-required-
+
+message="Please enter your email address.">
+      </p> 
+      <p><input type="text" id="phone" name="phone" data-validation="required" class="form-control input-lg" placeholder="Phone"  required data-validation-required-
+
+message="Please enter your phone number."></p>
       <p>
         <div style="text-align:left">
-          <input type="text" placeholder="Select Date" data-validation="date" class="form-control calander" id="mytarget" value="">
+          <input type="text" placeholder="Select Date" data-validation="date" class="form-control calander" name="mytarget" id="mytarget" value="" required data-
+
+validation-required-message="Please select date.">
           <div class="monthly" id="mycalendar2"></div>
         </div>
       </p>
-      <div><button type="submit" class="btn btn-empty btn-block btn-lg">Ok</button></div>
+<div id="success"></div>
+      <div><button type="submit" value="send" name="send" class="btn btn-empty btn-block btn-lg">Send</button></div>
     </div>
+</form>
   </div>
 </div>
 </section>
@@ -162,6 +173,8 @@
     <script src="js/jasny-bootstrap.min.js"></script>
   <script src="js/main.js"></script>
     <script src="js/monthly.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 <script>
 </script>
 
