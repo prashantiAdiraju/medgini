@@ -1228,7 +1228,7 @@ text-align:left;margin-top:0px;}
     background: #191919;
 }
 
-.input-lg, .form-horizontal .form-group-lg .form-control {
+.input-lg, .form-horizontal .form-group-lg .form-control, textarea {
     height: 40px;
     width:100%;
     padding: 6px 16px;
@@ -1348,7 +1348,7 @@ border-radious:5px
   transition: all 0.8s ease;
 
 }
-#schedule input{
+#schedule input, #schedule textarea{
   background:transparent;
   margin-top: 20px;
     padding: 5px;
@@ -1359,7 +1359,7 @@ border-radious:5px
     border: 1px solid #c5c5c5;
     border-radius: 6px;
 }
-#schedule input:hover{
+#schedule input:hover; #schedule textarea:hover{
 background:#000;
   }
   #schedule button:hover{
@@ -1435,6 +1435,37 @@ color:#fff !important;
 }
 .form-control {
   color:#c5c5c5;
+}
+.alert-danger {
+    margin-top: -37px;
+    width: 52%;
+    padding-top:5px;
+    padding-right: 6px;
+    position: absolute;
+    margin-left: 28%;
+    border-color: #ebccd1;
+    font-size:16px;
+    color: #a94442;
+    background: #f2dede;
+}
+.alert-success {
+    margin-top: -37px;
+    width: 52%;
+    padding-top:5px;
+    padding-right: 6px;
+    position: absolute;
+    margin-left: 28%;
+    border-color: #dff0d8;
+    font-size:16px;
+    color: #3c763d;
+    background: #dff0d8;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 5px;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
 }
 /* schedule ends */
 .back-to-top{
